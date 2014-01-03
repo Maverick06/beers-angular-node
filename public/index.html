@@ -1,0 +1,35 @@
+<html ng-app="App">
+<head>
+	<title>Sample Angular App</title>
+	
+	<script type="text/javascript" src="js/lib/angular.min.js"></script>
+	<script type="text/javascript" src="js/lib/angular-resource.min.js"></script>	
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/services.js"></script>	
+	<script type="text/javascript" src="js/controllers/main.js"></script>
+	<script type="text/javascript" src="js/controllers/beers.js"></script>	
+	<script type="text/javascript" src="js/controllers/beer.js"></script>
+	<script type="text/javascript" src="js/controllers/lorem.js"></script>
+	<script type="text/javascript" src="js/controllers/ipsum.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+</head>
+<body>
+	<div class="container" ng-controller="Main">
+		<h1>Beers 'n AngularJS + Node.js</h1>
+		<ul class="nav nav-tabs">
+			<li ng-class="{active: activePage=='beers'}">
+				<a href="#/beers">Beers</a>
+			</li>
+			<li ng-class="{active: activePage=='lorem'}">
+				<a href="#/lorem">Lorem</a>
+			</li>
+			<li ng-class="{active: activePage=='ipsum'}">
+				<a href="#/ipsum">Ipsum</a>
+			</li>			
+		</ul>
+		<div ng-view></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<div class="col-md-4">
+
+	<h2>{{beer.name}}</h2>
+	<ul>
+		<li>Brewed by {{beer.brewer}}</li>
+		<li>Made in {{beer.area}}</li>	
+		<li>{{beer.style}} style beer</li>
+		<li>{{beer.alcohol}}% alcohol</li>
+		<li>{{beer.rating}} rating</li>
+	</ul>
+	<button type="submit" class="btn btn-default" ng-click="deleteBeer()">Delete Beer</button>
+</div>
+
+<div class="col-md-8">
+	<h2 class="col-sm-offset-4">Update this beer!</h2>
+	<form class="form-horizontal" role="form">
+		<div class="form-group">
+			<label for="name" class="col-sm-4 control-label">Beer Name</label>
+			<div class="col-sm-8">
+				<input id="name" type="text" class="form-control" ng-model="updatedBeer.name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="brewery" class="col-sm-4 control-label">Brewery</label>
+			<div class="col-sm-8">
+				<input id="brewery" type="text" class="form-control" ng-model="updatedBeer.brewer">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="location" class="col-sm-4 control-label">Location</label>
+			<div class="col-sm-8">
+				<input id="location" type="text" class="form-control" ng-model="updatedBeer.area">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="style" class="col-sm-4 control-label">Style</label>
+			<div class="col-sm-8">
+				<input id="style" type="text" class="form-control" ng-model="updatedBeer.style">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="alcohol" class="col-sm-4 control-label">Alcohol %</label>
+			<div class="col-sm-8">
+				<input id="alcohol" type="text" class="form-control" ng-model="updatedBeer.alcohol">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="rating" class="col-sm-4 control-label">Rating</label>
+			<div class="col-sm-8">
+				<input id="rating" type="text" class="form-control" ng-model="updatedBeer.rating">
+			</div>
+		</div>		
+		
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-8">
+				<button type="submit" class="btn btn-default" ng-click="updateBeer()">Update Beer</button>
+			</div>
+		</div>
+
+	</form>
+</div>

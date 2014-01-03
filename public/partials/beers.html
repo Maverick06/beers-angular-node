@@ -1,0 +1,56 @@
+<div class="col-md-4">
+	<h2>Beers!</h2>
+
+	<ul>
+		<li ng-repeat="beer in beers"><a ng-href="#/beers/{{beer.code}}">{{beer.name}}</a></li>
+	</ul>
+</div>
+
+<div class="col-md-8">
+	<h2 class="col-sm-offset-4">Add a beer!</h2>
+	<form class="form-horizontal" role="form">
+		<div class="form-group">
+			<label for="name" class="col-sm-4 control-label">Beer Name</label>
+			<div class="col-sm-8">
+				<input id="name" type="text" class="form-control" ng-model="newBeer.name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="brewery" class="col-sm-4 control-label">Brewery</label>
+			<div class="col-sm-8">
+				<input id="brewery" type="text" class="form-control" ng-model="newBeer.brewer">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="location" class="col-sm-4 control-label">Location</label>
+			<div class="col-sm-8">
+				<input id="location" type="text" class="form-control" ng-model="newBeer.area">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="style" class="col-sm-4 control-label">Style</label>
+			<div class="col-sm-8">
+				<input id="style" type="text" class="form-control" ng-model="newBeer.style">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="alcohol" class="col-sm-4 control-label">Alcohol %</label>
+			<div class="col-sm-8">
+				<input id="alcohol" type="text" class="form-control" ng-model="newBeer.alcohol">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="rating" class="col-sm-4 control-label">Rating</label>
+			<div class="col-sm-8">
+				<input id="rating" type="text" class="form-control" ng-model="newBeer.rating">
+			</div>
+		</div>		
+		
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-8">
+				<button type="submit" class="btn btn-default" ng-click="addBeer()">Add Beer</button>
+			</div>
+		</div>
+
+	</form>
+</div>

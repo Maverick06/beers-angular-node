@@ -1,0 +1,92 @@
+{
+	"3004852819688084": {
+		"code": 	"3004852819688084",
+		"name": 	"Blanche De Bruxelles",
+		"brewer": 	"Brasserie Lefèbvre SA",
+		"style": 	"Witbier",
+		"alcohol": 	"4.50",
+		"rating": 	"84",
+		"area": 	"Rebecq-Quenast, Belgium"
+	},
+	"5388758752221364": {
+		"code": 	"5388758752221364",
+		"name": 	"Black Butte Porter",
+		"brewer": 	"Deschutes Brewery",
+		"style": 	"American Porter",
+		"alcohol": 	"5.20",
+		"rating": 	"93",
+		"area": 	"Bend, Oregon"
+	},
+	"4207198834807015": {
+		"code": 	"4207198834807015",
+		"name": 	"Devil's Backbone",
+		"brewer": 	"Real Ale Brewing Company",
+		"style": 	"Tripel",
+		"alcohol": 	"8.10",
+		"rating": 	"87",
+		"area": 	"Blanco, Texas"
+	},
+	"4211852931571069": {
+		"code": 	"4211852931571069",
+		"name": 	"Vampire Slayer ",
+		"brewer": 	"Clown Shoes",
+		"style": 	"American Double / Imperial Stout",
+		"alcohol": 	"10.00",
+		"rating": 	"92",
+		"area": 	"Ipswich, Massachusetts"
+	},
+	"8964996030906986": {
+		"code": 	"8964996030906986",
+		"name": 	"Blaecorn Unidragon",
+		"brewer": 	"Clown Shoes",
+		"style": 	"Russian Imperial Stout",
+		"alcohol": 	"12.50",
+		"rating": 	"91",
+		"area": 	"Ipswich, Massachusetts"
+	},
+	"1588782371221638": {
+		"code": 	"1588782371221638",
+		"name": 	"Abbey Belgian Style Ale",
+		"brewer": 	"New Belgium Brewing",
+		"style": 	"Dubbel",
+		"alcohol": 	"7.00",
+		"rating": 	"90",
+		"area": 	"Fort Collins, Colorado"
+	},
+	"2294014333933740": {
+		"code": 	"2294014333933740",
+		"name": 	"Trippel Belgian Style Ale",
+		"brewer": 	"New Belgium Brewing",
+		"style": 	"Tripel",
+		"alcohol": 	"7.80",
+		"rating": 	"86",
+		"area": 	"Fort Collins, Colorado"
+	},
+	"0200156579620878": {
+		"code": 	"0200156579620878",
+		"name": 	"Nitro",
+		"brewer": 	"Left Hand Brewing Company",
+		"style": 	"Milk / Sweet Stout",
+		"alcohol": 	"6.00",
+		"rating": 	"89",
+		"area": 	"Longmont, Colorado"
+	},
+	"3539482752450575": {
+		"code": 	"3539482752450575",
+		"name": 	"Chimay Grande Réserve",
+		"brewer": 	"Bières de Chimay S.A.",
+		"style": 	"Belgian Strong Dark Ale",
+		"alcohol": 	"9.00",
+		"rating": 	"96",
+		"area": 	"Baileux (Chimay), Belgium"
+	},
+	"6109898054422441": {
+		"code": 	"6109898054422441",
+		"name": 	"La Fin Du Monde",
+		"brewer": 	"Unibroue",
+		"style": 	"Tripel",
+		"alcohol": 	"9.00",
+		"rating": 	"96",
+		"area": 	"Quebec, Canada"
+	}		
+}

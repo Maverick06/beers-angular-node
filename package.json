@@ -1,0 +1,15 @@
+{
+	"name": "server",
+	"version": "0.0.0",
+	"description": "Beers 'n AngularJS + Node.js is a template project used to be a starting point for CRUD using these technologies.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "",
+	"author": "Ian Smith",
+	"license": "MIT",
+	"dependencies": {
+		"express": "~3.1.1"
+	}
+}
